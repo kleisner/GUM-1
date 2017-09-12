@@ -216,7 +216,7 @@ run_post_prm_pt_cmsy <-
       ## PARAMETER SECTION
 
       start_k     <-
-        c(max(ct, na.rm = T), 500 * max(ct, na.rm = T)) ## default for upper k e.g. 100 * max catch
+        c(max(ct, na.rm = T), 50 * max(ct, na.rm = T)) ## default for upper k e.g. 100 * max catch
 
       #     startbio 	<- c(0.6,1)   ## assumed biomass range at start of time series, as fraction of k
 
